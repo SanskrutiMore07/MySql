@@ -1,0 +1,33 @@
+select * from SCHOOL;
+
+USE Students;
+
+INSERT INTO SCHOOL VALUES (1,'Sakshi','Satara');
+INSERT INTO SCHOOL VALUES (2,'Sanika','nagthan');
+INSERT INTO SCHOOL VALUES (3,'Rahul','vai');
+INSERT INTO SCHOOL VALUES (4,'Pratik','Kolhapur');
+select * from SCHOOL;
+select * from SCHOOL;
+
+drop table SCHOOL;
+
+CREATE TABLE STD(
+ROLLNO INT PRIMARY KEY,
+NAME VARCHAR(50),
+STANDERD INT
+);
+
+SELECT * FROM STD;
+
+INSERT INTO STD VALUES (1,'Sakshi',11);
+INSERT INTO STD VALUES (2,'Sanika',12);
+INSERT INTO STD VALUES (3,'Rahul',11);
+INSERT INTO STD VALUES (4,'Pratik',11);
+SELECT * FROM STD;
+
+INSERT INTO STD (ROLLNO,NAME,STANDERD)
+VALUES
+(5,'Sahil',12),
+(6,'Soham',12),
+(7,'Sagar',12);
+SELECT * FROM STD;
