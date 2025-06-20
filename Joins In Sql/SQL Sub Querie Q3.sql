@@ -1,0 +1,8 @@
+use SCHOOL_DETAILS;
+select * from SchoolInfo;
+
+SELECT * FROM SchoolInfo
+WHERE CITY = 'KARAD';
+
+SELECT MAX(MARKS)
+FROM(SELECT * FROM SchoolInfo WHERE CITY = 'KARAD')AS TEMP;
